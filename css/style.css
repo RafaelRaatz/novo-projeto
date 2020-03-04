@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}
+
+body {
+    font-family: 'roboto';
+}
+
+/********** header **********/
+
+header{
+    padding: 3px;
+    padding-top: 10px;
+    display: flex;
+    padding-bottom: 8px;
+}
+
+header img {
+    border: 0;
+    height: auto;
+    max-width: 100px;
+}
+
+.logo{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.text-logo {
+    
+    padding-top: 10px;
+    float: left;
+
+}
+
+.text-logo .p {
+    font-size: 0.2em;
+    
+}
+
+.logo-title {
+    font-size: 1.6em;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+}
+
+.img-maps {
+    float: right;
+}
+
+/********** menu **********/
+
+.menu {
+    display: flex;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    background-color: grey;
+}
+
+/* main */
+
+
+.main {
+    padding-top:10px;
+    margin-left: 25px;
+}
+
+.img-first-news {
+    width: 100%;
+    height: 500px;
+}
+
+.text-first-news {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.second-text-first-news {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+/********** second news **********/
+
+.title-news {
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.second-news .second-news-apartaments { 
+    float: left;
+    margin-right: 20px;
+    width: 530px;
+    
+}
+
+.second-news .second-news-lodges {
+    float: left;
+    width: 530px;
+    
+}
+
+.second-news-thumb {
+    width: 530px;
+    height: 350px;
+}
+
+.second-news .second-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+
+}
+
+.second-news .second-description {
+    font-size: 0.9em;
+}
+
+/********* third news *********/
+
+.third-news-thumb {
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
