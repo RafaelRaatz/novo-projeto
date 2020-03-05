@@ -101,12 +101,12 @@ ul a:hover {
     margin-left: 25px;
 }
 
-.img-first-news {
+.img-first-article {
     width: 100%;
     height: 500px;
 }
 
-.text-first-news {
+.text-first-article {
     font-size: 1.2em;
     margin-top: 20px;
     text-align: center;
@@ -114,7 +114,7 @@ ul a:hover {
 
 }
 
-.second-text-first-news {
+.second-text-first-article {
     text-align: center;
     margin-top: 10px;
     font-size: 0.8em;
@@ -123,7 +123,7 @@ ul a:hover {
 
 /********** second news **********/
 
-.title-news {
+.title-article {
     font-size: 1.0em;
     font-weight: bold;
     margin-top: 15px;
@@ -131,25 +131,25 @@ ul a:hover {
 
 }
 
-.second-news .second-news-apartaments { 
+.second-article .second-article-apartaments { 
     float: left;
     margin-right: 20px;
     width: 530px;
     
 }
 
-.second-news .second-news-lodges {
+.second-article .second-article-lodges {
     float: left;
     width: 530px;
     
 }
 
-.second-news-thumb {
+.second-article-thumb {
     width: 530px;
     height: 350px;
 }
 
-.second-news .second-title {
+.second-article .second-title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.0em;
@@ -157,13 +157,13 @@ ul a:hover {
 
 }
 
-.second-news .second-description {
+.second-article .second-description {
     font-size: 0.9em;
 }
 
 /********* third news *********/
 
-.third-news-thumb {
+.third-article-thumb {
     float: left;
     width: 350px;
     height: 200px;
